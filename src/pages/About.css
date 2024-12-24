@@ -1,0 +1,63 @@
+/* General Styling */
+.section-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* About Details Section */
+  .about-details {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .about-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #007bff;
+  }
+  
+  .about-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-details ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Image Section */
+  .about-image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-image-section p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Call to Action */
+  .about-cta h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .about-cta p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .about-cta .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+  

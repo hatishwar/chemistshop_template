@@ -1,0 +1,21 @@
+/* General Styling */
+.section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .section-description {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .special-offers {
+    background-color: #f8f9fa;
+  }
+  
+  .special-offers .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,34 @@
+/* Footer General Styling */
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text */
+    font-size: 0.9rem;
+  }
+  
+  /* Footer Links Styling */
+  .footer-link {
+    color: #adb5bd; /* Light gray for links */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-link:hover {
+    color: #ffc107; /* Yellow on hover */
+  }
+  
+  /* Social Media Icons Styling */
+  .footer-icon {
+    font-size: 1.5rem;
+    color: #adb5bd; /* Light gray icons */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-icon:hover {
+    color: #ffc107; /* Yellow on hover */
+  }
+  
+  /* Divider Line */
+  .footer-divider {
+    border-color: #495057; /* Light gray divider */
+  }
+  

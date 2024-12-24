@@ -1,0 +1,51 @@
+/* Section Header */
+.section-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  /* Card Styling */
+  .four-column-cards .card {
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .four-column-cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .four-column-cards .card-img-top {
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  
+  .four-column-cards .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .four-column-cards .card-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .four-column-cards .price {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #007bff;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .four-column-cards .card-img-top {
+      height: 120px;
+    }
+  }
+  

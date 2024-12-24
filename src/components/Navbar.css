@@ -1,0 +1,32 @@
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color: #0d6efd; /* Primary blue color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .custom-navbar .navbar-brand:hover {
+    color: #ffc107; /* Yellow on hover */
+  }
+  
+  .custom-navbar .nav-link {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #ffc107; /* Yellow on hover */
+  }
+  
+  /* Offcanvas Menu Styling */
+  .offcanvas-header,
+  .offcanvas-body {
+    background-color: #f8f9fa; /* Light background */
+  }
+  

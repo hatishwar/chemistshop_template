@@ -1,0 +1,23 @@
+.pre-nav {
+    font-size: 0.9rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pre-nav a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .pre-nav a:hover {
+    color: #0056b3;
+  }
+  
+  .pre-nav i {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .pre-nav i:hover {
+    color: #007bff;
+  }
+  
