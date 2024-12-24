@@ -1,5 +1,8 @@
 import React from 'react';
 import './Footernav.css';
+import { Navbar, Nav, Container, Offcanvas } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 const FooterNav = () => {
   return (
@@ -10,10 +13,10 @@ const FooterNav = () => {
           <div className="col-md-3 col-sm-6 mb-3">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="footer-link">Home</a></li>
-              <li><a href="/about" className="footer-link">About</a></li>
-              <li><a href="/products" className="footer-link">Products</a></li>
-              <li><a href="/contact" className="footer-link">Contact</a></li>
+              <li><Nav.Link as={Link} to="/">Home</Nav.Link></li>
+              <li><Nav.Link as={Link} to="/about">About Us</Nav.Link></li>
+              <li><Nav.Link as={Link} to="/products">Products</Nav.Link></li>
+              <li><Nav.Link as={Link} to="/contact">Contact</Nav.Link></li>
             </ul>
           </div>
 
